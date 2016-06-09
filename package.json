@@ -1,0 +1,17 @@
+{
+  "name": "webshop",
+  "author": "hubot-grpc group",
+  "version": "0.1.0",
+  "description": "Example grpc service used for testing",
+  "keywords": [
+    "grpc"
+  ],
+  "url": "https://github.com/hubot-grpc/webshop",
+  "bugs": "https://github.com/hubot-grpc/webshop/issues",
+  "repository": "git://github.com/hubot-grpc/webshop",
+  "license": "MIT",
+  "dependencies": [
+    "grpc",
+    "hashmap"
+  ]
+}
