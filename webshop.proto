@@ -34,7 +34,7 @@ message Customer {
 }
 
 message Order {
-  optional string id = 1; // order ID
+  string id = 1; // order ID
   repeated ProductId products = 2;
   Customer customer = 3;
   enum Status {
@@ -43,7 +43,7 @@ message Order {
     SHIPPED = 2;
     CANCELED = 3;
   }
-  Status status = 4 [default = NEW];
+  Status status = 4;
 }
 
 message OrderId {
